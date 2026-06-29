@@ -153,6 +153,7 @@ export type ABInitOptions = {
   shareSubdomainCookie?: boolean;
   logEnable?: boolean;
   logLevel?: ABLogLevelValue;
+  isExecPageViewEvent?: boolean;
 };
 
 export type ABProductItem = {
